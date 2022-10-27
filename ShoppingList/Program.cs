@@ -44,7 +44,6 @@ while (runAgain)
         userItem.UserItemCount(item.Key.ToString(), item.Value);
     }
 
-
     decimal total = userItem.UserPurchaseTotal(userItemObjectList);
     decimal average = userItem.UserPurchaseAverage(userItemObjectList);
     userItem.ReturnTest();
